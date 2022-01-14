@@ -17,6 +17,7 @@ const { ASSET_CREATE_STEP_TYPES } = globalConstants;
 
 const useStyles = makeStyles((theme) => ({
   form: { margin: 2 },
+  label: { padding: 0, "& .MuiStepLabel-iconContainer": { paddingRight: 0 } },
 }));
 
 function AssetCreate({
@@ -36,8 +37,8 @@ function AssetCreate({
   const steppers = (
     <Stepper activeStep={activeStep}>
       {steps.map((step) => (
-        <Step key={`steps-${step.label}`}>
-          <StepLabel></StepLabel>
+        <Step key={`steps-${step.label}`} className={styles.label}>
+          <StepLabel className={styles.label}></StepLabel>
         </Step>
       ))}
     </Stepper>
