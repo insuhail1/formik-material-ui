@@ -93,7 +93,7 @@ function Register({ values: formValues }) {
     },
     {
       label: `Congratulations, ${displayName}!`,
-      subLabel: "You have completed onbnoarding, you can start using the Eden!",
+      subLabel: "You have completed on boarding, you can start using the Eden!",
       type: ASSET_CREATE_STEP_TYPES.CONFIRM,
       basic: [
         {

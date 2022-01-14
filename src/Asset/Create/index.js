@@ -52,7 +52,12 @@ function AssetCreate({
         {stepsError[activeStep] && (
           <AssetError message={stepsError[activeStep]} />
         )}
-        <Box display="flex" alignItems="center" flexDirection="column">
+        <Box
+          display="flex"
+          alignItems="center"
+          flexDirection="column"
+          maxWidth={550}
+        >
           {steps.map((step, index) => {
             const { type, label } = step || {};
 
