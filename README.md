@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Demo
-https://cutshort-suhail.netlify.app/
+https://formik-and-material-ui.netlify.app/
 
 ## Available Scripts
 
